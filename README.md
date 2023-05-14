@@ -26,7 +26,7 @@
 6. 이제 텍스트 채널에 생성할 프롬프트를 입력하고 Enter 키를 눌러 프롬프트와 함께 메시지를 보내면 네트워크 활동에서 "상호작용(interaction)"이라는 새 줄을 볼 수 있습니다. 이 줄을 누르고 페이로드 탭을 선택하면 페이로드_json이 표시됩니다 - 이것이 바로 우리가 필요한 것입니다! 채널 아이디, 애플리케이션 아이디, 길드 아이디, 세션 아이디, 버전, 아이디 값을 복사하세요. 나중에 필요할 테니까요. 
 7. 그런 다음 페이로드 탭에서 헤더 탭으로 이동하여 "권한(authorization)" 필드를 찾아 값을 복사합니다.
 
-![7번자료이미지](https://github.com/jkf87/Maybejourney-try/blob/main/num7 "7")
+![7번자료이미지](https://github.com/jkf87/Maybejourney-try/blob/main/num7.png "7")
 ---
 8. 페이로드(payload) 및 헤더(header) 값을 복사하여 `.env` 파일에 붙여넣습니다. (Rename `.env.template` to `.env`)
 9. OpenAI API 키를 가져와서 `.env`에 복사/붙여넣기 합니다. [here](https://platform.openai.com/account/api-keys)
